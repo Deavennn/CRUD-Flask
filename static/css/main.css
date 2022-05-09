@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+h1{
+    font-family:sans-serif, monospace;
+}
+
+.content{
+    margin: 0 auto;
+    width: 400px;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    border-radius: 5%;
+    width: 100%;
+}
+
+th{
+    height: 30px;
+}
+
+tr .finished{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+a:visited{
+    color: green;
+}
+
+#form{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.update_name{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
